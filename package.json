@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --write .",
+    "format": "npm run prettier && npm run lint:fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
@@ -28,6 +30,8 @@
     "eslint": "^9.25.1",
     "eslint-plugin-readable-tailwind": "^2.1.0",
     "pinia-plugin-persistedstate": "^4.2.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3",
     "vite-plugin-eslint2": "^5.0.3",
     "vue-tsc": "^2.2.10"
