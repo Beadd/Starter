@@ -19,6 +19,7 @@
   "devDependencies": {
     "@nuxtjs/i18n": "^9.5.3",
     "@pinia/nuxt": "^0.11.0",
+    "@vueuse/nuxt": "^13.1.0",
     "daisyui": "^5.0.28",
     "pinia-plugin-persistedstate": "^4.2.0"
   }
