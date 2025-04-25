@@ -17,4 +17,12 @@ export default defineNuxtConfig({
   eslint: {
     checker: true, // <---
   },
+  i18n: {
+    defaultLocale: "zh",
+    strategy: "no_prefix",
+    locales: [
+      { code: "zh", name: "简体中文", file: "zh.json" },
+      { code: "en", name: "English", file: "en.json" },
+    ],
+  },
 });
