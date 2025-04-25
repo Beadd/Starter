@@ -28,7 +28,7 @@
             <label class="label">Password</label>
             <input type="password" class="input" placeholder="Password">
             <div><a class="link link-hover">Forgot password?</a></div>
-            <button class="btn btn-neutral mt-4">
+            <button class="btn btn-neutral mt-4" @click="useRouter().push('home')">
               Login
             </button>
           </fieldset>
