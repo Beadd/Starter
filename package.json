@@ -17,6 +17,8 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "daisyui": "^5.0.28"
+    "@pinia/nuxt": "^0.11.0",
+    "daisyui": "^5.0.28",
+    "pinia-plugin-persistedstate": "^4.2.0"
   }
 }
