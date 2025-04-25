@@ -8,5 +8,9 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  modules: ["@pinia/nuxt", "pinia-plugin-persistedstate"],
+  modules: [
+    "@pinia/nuxt",
+    "pinia-plugin-persistedstate",
+    "@nuxtjs/i18n",
+  ],
 });
