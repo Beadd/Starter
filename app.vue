@@ -15,4 +15,5 @@ useHead({
 <template>
   <NuxtLoadingIndicator :throttle="0" />
   <NuxtPage />
+  <AppToast />
 </template>
