@@ -1,5 +1,8 @@
 <script setup lang="ts">
+const toast = useToast();
+const { t } = useI18n();
 
+showtoastsuccess(toast, t);
 </script>
 
 <template>
