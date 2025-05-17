@@ -19,7 +19,7 @@ export function showtoast(
   detail: string,
   level?: "success" | "info" | "warn" | "error",
 ) {
-  toast.add(message(detail, level));
+  toast.add(message(detail, level || "success"));
 }
 
 export function showtoastsuccess(toast: ToastServiceMethods, t: (key: string) => string) {
