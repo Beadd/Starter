@@ -1,5 +1,5 @@
 <script setup lang="ts">
-definePageMeta({
-  redirect: "/home",
+onMounted(() => {
+  useRouter().replace("/posts");
 });
 </script>
