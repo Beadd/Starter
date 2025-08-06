@@ -1,5 +1,9 @@
 <script setup lang="ts">
 onMounted(() => {
-  useRouter().replace("/posts");
+  useRouter().replace("/home");
 });
 </script>
+
+<template>
+  <div />
+</template>
